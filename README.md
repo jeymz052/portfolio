@@ -97,6 +97,6 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 
 Got a project in mind or just want to say hi?
 
-📧 [rajaabdulbasit005@gmail.com](mailto:rajaabdulbasit005@gmail.com)  
+📧 [estebanjames67@gmail.com](mailto:estebanjames67@gmail.com)  
 
 ```
