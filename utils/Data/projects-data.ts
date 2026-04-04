@@ -1,0 +1,87 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Court Booking Management System",
+    description:
+      "A full-stack PHP web application implementing CRUD operations for court reservations, schedules, and user management. Designed backend logic using PHP and MySQL, including authentication, session handling, and booking validation. Developed during internship at JCAS Sports Alley OPC.",
+    tools: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    role: "Full-Stack Developer",
+    code: "",
+    demo: "https://jamesharley-dcpet3.kesug.com/login.php?i=1",
+    date: "2025-09-01",
+    images: ["/projects/court/court.png"],
+    videos: [""],
+    highlights: [
+      "Implemented full CRUD operations for court reservations and schedules.",
+      "Built secure authentication and session handling system.",
+      "Designed MySQL database schema for user and booking management.",
+      "Developed booking validation logic to prevent scheduling conflicts.",
+    ],
+    challenges: [
+      "Designing a conflict-free booking system for multiple courts.",
+      "Implementing secure session management and authentication.",
+    ],
+  },
+  {
+    id: 2,
+    name: "Vertigation-ML System",
+    description:
+      "A PHP-based thesis web application for a vertical irrigation system integrated with machine learning outputs. Implemented backend logic to manage sensor data, irrigation control, and system monitoring. Connected ML-generated insights to the web interface for decision support and automation.",
+    tools: [
+      "PHP",
+      "MySQL",
+      "Python",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    role: "Full-Stack Developer",
+    code: "",
+    demo: "http://jamesharley-dcpet3.page.gd/login.php?i=1",
+    date: "2025-06-01",
+    images: ["/projects/vertigation/vertigation.png"],
+    videos: [""],
+    highlights: [
+      "Integrated machine learning outputs into a PHP web interface for real-time decision support.",
+      "Built backend logic to manage IoT sensor data and irrigation control.",
+      "Developed system monitoring dashboard for irrigation automation.",
+      "Connected ML-generated insights to automate irrigation workflows.",
+    ],
+    challenges: [
+      "Integrating ML model outputs seamlessly with the PHP backend.",
+      "Managing real-time sensor data and ensuring system reliability.",
+    ],
+  },
+  {
+    id: 3,
+    name: "Detective-CO-AI-NAN",
+    description:
+      "A Crime Analysis & Detection Web System powered by a locally trained YOLOv8 model for object detection using weapons and bloodstain datasets sourced from Roboflow. Built to assist in crime scene analysis through AI-powered detection and classification.",
+    tools: [
+      "YOLOv8",
+      "Python",
+      "Roboflow",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    role: "Full-Stack Developer & ML Engineer",
+    code: "",
+    demo: "https://crime-detection-system-steel.vercel.app/",
+    date: "2025-12-01",
+    images: ["/projects/detective/detective.png"],
+    videos: [""],
+    highlights: [
+      "Locally trained a YOLOv8 model on custom weapons and bloodstain datasets from Roboflow.",
+      "Built a web interface to visualize and interact with AI detection results.",
+      "Implemented object detection pipeline for crime scene analysis.",
+      "Integrated ML model into a deployable web application on Vercel.",
+    ],
+    challenges: [
+      "Collecting and labeling a high-quality dataset for crime scene object detection.",
+      "Optimizing YOLOv8 model performance for accurate real-time detection.",
+    ],
+  },
+];
