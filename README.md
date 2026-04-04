@@ -92,7 +92,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 
 ## 📦 Deployment
 
-deployed  [here](https://abdul-basit-portfolio-website.vercel.app/)
+
 
 ---
 
@@ -106,6 +106,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Got a project in mind or just want to say hi?
 
-📧 [rajaabdulbasit005@gmail.com](mailto:rajaabdulbasit005@gmail.com)  
+📧 [estebanjames67@gmail.com](mailto:estebanjames67@gmail.com)  
 
 ```
