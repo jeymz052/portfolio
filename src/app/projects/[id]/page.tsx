@@ -263,7 +263,7 @@ const ProjectDetails = async ({ params }: Props) => {
                 Explore More Work
               </h2>
               <p className="text-slate-400 text-lg font-medium">
-                Deep dive into other high-performance solutions.
+                Deep dive into other product and engineering builds.
               </p>
             </div>
             <Link

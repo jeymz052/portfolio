@@ -17,9 +17,8 @@ const ProjectsPage = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-400 leading-relaxed font-medium italic">
-            A comprehensive archive of high-performance applications, innovative
-            experiments, and full-stack solutions built with mission-critical
-            precision.
+            A comprehensive archive of product experiences, conversion funnels,
+            and engineering-led applications built for real-world results.
           </p>
         </div>
 

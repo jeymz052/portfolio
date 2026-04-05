@@ -1,25 +1,25 @@
 export const projectsData = [
   {
     id: 1,
-    name: "Court Booking Management System",
+    name: "Skincare Funnel",
     description:
-      "A full-stack PHP web application implementing CRUD operations for court reservations, schedules, and user management. Designed backend logic using PHP and MySQL, including authentication, session handling, and booking validation. Developed during internship at JCAS Sports Alley OPC.",
-    tools: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    role: "Full-Stack Developer",
+      "A conversion-focused skincare product funnel website designed to guide visitors from awareness to action. Built with a clean, trust-driven interface, persuasive product storytelling, and clear CTAs to improve user engagement and lead generation.",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    role: "Frontend Developer",
     code: "",
-    demo: "https://jamesharley-dcpet3.kesug.com/login.php?i=1",
-    date: "2025-09-01",
-    images: ["/projects/court/court.png"],
+    demo: "https://skincare-funnel.vercel.app/",
+    date: "2026-04-01",
+    images: ["/projects/skincare/skincare-funnel.png"],
     videos: [""],
     highlights: [
-      "Implemented full CRUD operations for court reservations and schedules.",
-      "Built secure authentication and session handling system.",
-      "Designed MySQL database schema for user and booking management.",
-      "Developed booking validation logic to prevent scheduling conflicts.",
+      "Designed a clean, premium landing experience tailored for skincare audiences.",
+      "Structured the page as a conversion funnel with clear CTA placement.",
+      "Built responsive sections for product value, trust signals, and social proof.",
+      "Optimized visual hierarchy and messaging for better user action flow.",
     ],
     challenges: [
-      "Designing a conflict-free booking system for multiple courts.",
-      "Implementing secure session management and authentication.",
+      "Balancing aesthetic branding with performance and accessibility.",
+      "Crafting persuasive content flow without overwhelming the user.",
     ],
   },
   {

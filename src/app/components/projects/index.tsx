@@ -33,12 +33,13 @@ const Projects = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tighter">
               Featured{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
-                Creations
+                Work
               </span>
             </h2>
             <p className="mt-6 max-w-2xl text-slate-400 text-lg leading-relaxed font-medium mx-auto">
-              A selection of high-impact digital solutions, built with focus on
-              scalability, performance, and exceptional user experience.
+              A selection of digital products, conversion funnels, and
+              full-stack builds crafted for performance, clarity, and user
+              impact.
             </p>
           </div>
 
