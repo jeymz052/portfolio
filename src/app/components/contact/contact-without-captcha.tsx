@@ -1,6 +1,5 @@
 "use client";
 
-import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
@@ -36,28 +35,21 @@ const ContactWithoutCaptcha = () => {
       setError({ ...error, required: false });
     }
 
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
-    const options = {
-      publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "",
-    };
-
-    const templateParams = {
-      from_name: input.name,
-      email: input.email,
-      message: `${input.message} \nEmail: ${input.email}`,
-    };
-
     try {
       setIsLoading(true);
-      const res = await emailjs.send(
-        serviceID,
-        templateID,
-        templateParams,
-        options,
-      );
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: input.name,
+          email: input.email,
+          message: input.message,
+        }),
+      });
 
-      if (res.status === 200) {
+      if (res.ok) {
         toast.success("Message sent successfully!");
         setIsLoading(false);
         setInput({
@@ -65,6 +57,12 @@ const ContactWithoutCaptcha = () => {
           email: "",
           message: "",
         });
+      } else {
+        const data = (await res.json().catch(() => ({}))) as {
+          error?: string;
+        };
+        toast.error(data.error ?? "Failed to send message.");
+        setIsLoading(false);
       }
     } catch (error: unknown) {
       setIsLoading(false);
