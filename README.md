@@ -83,10 +83,9 @@ Then visit: [http://localhost:3000](http://localhost:3000)
 Copy `.env.example` and create `.env.local`:
 
 ```env
-EMAILJS_SERVICE_ID=
-EMAILJS_TEMPLATE_ID=
-EMAILJS_PUBLIC_KEY=
-EMAILJS_PRIVATE_KEY=
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 ```
 
 ---
